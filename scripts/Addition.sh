@@ -1,8 +1,8 @@
 #!/bin/bash
 echo .Enter the First Number: .
-read a
+read c
 echo .Enter the Second Number: .
 read b
-x=$(expr "$a" + "$b")
+x=$(expr "$c" + "$b")
 echo $a + $b = $x
 
